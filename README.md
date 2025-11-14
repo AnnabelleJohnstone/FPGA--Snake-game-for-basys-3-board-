@@ -42,13 +42,13 @@ topwrapper.v   🌸
 └── u_vga_controller → VGA Controller 🎮🌈
 
 
-
 This is your full architecture
+
 
 🎮 How to Play 🎮
 
 Connect your Basys 3 to a VGA monitor, program the bitstream, and you’re ready!
-Use the buttons to move your little snake princess:
+Use the buttons to move your little snake :
 
 ⬆️ BTNU – Up
 
@@ -58,7 +58,7 @@ Use the buttons to move your little snake princess:
 
 ➡️ BTNR – Right
 
-Eat the food squares, grow longer, and don’t bonk into yourself! 💖🐍
+
 
 🌷 Setup Instructions 🌷
 
@@ -72,11 +72,9 @@ Program the Basys 3 board 🌸
 
 Plug in a VGA display 💗
 
-💐 Aesthetic Screenshot Placeholder 💐
 
-(Add a cute screenshot of your VGA output here!)
 
-🌸 “FPGA snake but make it kawaii.” 🌸
+
 
 🧁 Final Notes 🧁
 
