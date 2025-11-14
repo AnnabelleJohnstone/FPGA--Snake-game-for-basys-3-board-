@@ -16,13 +16,13 @@ A super cute hardware-powered Snake Game made with love (and Verilog) for the Ba
 - ✨ **Cute + nostalgic gameplay vibes**
 
 ## 💞 Project Structure 💞
-📁 vga_controller.v → Handles VGA timing (aka "the screen queen" 👑)
-📁 snake_logic.v → The heart of the game (snake brain 🧠💚)
-📁 lfsr_random.v → Pseudo-random sparkles ✨
-📁 input_controller.v → Button debouncing so inputs behave nicely 💅
-📁 score_count.v → Keeps track of your cute lil score 🔢🌸
-📁 seg_7_disp.v → 7-seg score display driver 💗
-📁 top.v / topwrapper.v → Everything comes together 💞
+- **`vga_controller.v`** → Handles VGA timing 
+- **`snake_logic.v`** → The heart of the game (snake brain 🧠💚)
+- **`lfsr_random.v`** → Pseudo-random 
+- **`input_controller.v`** → Button debouncing so inputs behave nicely 💅
+- **`score_count.v`** → Keeps track of your score 🔢
+- **`seg_7_disp.v`** → 7-seg score display driver 💗
+- **`top.v / topwrapper.v`** → Everything comes together 💞
 
 
 ## 🎮 How to Play 🎮
