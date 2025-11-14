@@ -1,94 +1,55 @@
-💗🎀 FPGA Snake Game – Basys 3 Edition 🎀💗
-<div align="center"> <p style="font-size: 18px;"> A super-cute, hardware-powered Snake Game built with love (and Verilog 💅). Play your fav retro game on a real FPGA — complete with VGA output & adorable pastel aesthetics! </p> <img src="YOUR_IMAGE_LINK_HERE" width="600" style="border-radius: 20px; margin-top: 10px;"/> </div>
-🌸✨ Features ✨🌸
-<div style="background: #ffe6f3; padding: 15px; border-radius: 15px; border: 2px solid #ffb6d9;">
+# 🎀💗 FPGA Snake Game – Basys 3 Edition 💗🎀
 
-💕 Full hardware implementation — no CPU, only pure logic magic
+A super cute hardware-powered Snake Game made with love (and Verilog) for the Basys 3 FPGA board! Play your favorite retro game on a real FPGA, complete with VGA output and adorable pastel aesthetics 💕✨
 
-🌈 640×480 VGA output with smooth + cute visuals
+![FPGA Snake Game](<img width="1536" height="1024" alt=" FPGAsnake" src="https://github.com/user-attachments/assets/b8562e72-e7ed-45bb-83af-8c723c2a7584" />
+)
 
-🐍 Snake movement, growth & collision logic
+## 🌸✨ Features ✨🌸
 
-🍬 Random food generator using LFSR
+- 💕 **Full hardware implementation** — no CPU, just pure digital logic magic!
+- 🌈 **VGA display** (640×480) with smooth, colorful graphics
+- 🐍 **Snake movement, growth, & food spawning**
+- 🍬 **Random food** using an LFSR (sparkle randomness!)
+- 🌟 **Sweet modular Verilog design**
+- 🎮 **Button controls** using the Basys 3 push-buttons
+- ✨ **Cute + nostalgic gameplay vibes**
 
-✨ Modular Verilog design (clean & aesthetic)
+## 💞 Project Structure 💞
+📁 vga_controller.v → Handles VGA timing (aka "the screen queen" 👑)
+📁 snake_logic.v → The heart of the game (snake brain 🧠💚)
+📁 lfsr_random.v → Pseudo-random sparkles ✨
+📁 input_controller.v → Button debouncing so inputs behave nicely 💅
+📁 score_count.v → Keeps track of your cute lil score 🔢🌸
+📁 seg_7_disp.v → 7-seg score display driver 💗
+📁 top.v / topwrapper.v → Everything comes together 💞
 
-🎮 Push-button controls on the Basys 3
 
-💗 Totally kawaii retro gaming vibe
+## 🎮 How to Play 🎮
 
-</div>
-🌈💗 Module Hierarchy (Golden Layout) 💗🌈
+Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! Use the buttons to move your little snake:
 
-💗 topwrapper.v
+- ⬆️ **BTNU** – Up
+- ⬇️ **BTND** – Down  
+- ⬅️ **BTNL** – Left
+- ➡️ **BTNR** – Right
 
-✨ u_master_sm — Master State Machine
+## 🌷 Setup Instructions 🌷
 
-🎀 u_nav_sm — Navigation State Machine
+1. **Open** the project in Vivado
+2. **Synthesize** ✨
+3. **Generate** the bitstream 💎
+4. **Program** the Basys 3 board 🌸
+5. **Plug in** a VGA display 💗
 
-🐍 u_snake_control — Snake Control Logic
+## 🧁 Final Notes 🧁
 
-🌸 u_score_count — Score Counter
+This project is perfect for anyone learning about:
+- FPGA design
+- VGA timing  
+- Digital logic
+- Modular Verilog
 
-🍬 u_target_rdm_gen — Random Target Generator
+---
 
-🔢 u_seg_7_disp — 7-Segment Display Driver
-
-🎮 u_vga_controller — VGA Controller
-
-💞 Project Structure 💞
-
-📁 vga_controller.v — VGA timing
-
-📁 snake_logic.v — Snake movement + collisions
-
-📁 lfsr_random.v — Random food generator
-
-📁 input_controller.v — Button debouncing
-
-📁 score_count.v — Score logic
-
-📁 seg_7_disp.v — 7-segment output
-
-📁 top.v / topwrapper.v — Top-level integration
-
-<div align="center"> <p style="font-style: italic; color:#d47ca6;"> Your full architecture — clean, modular, and adorable ✨ </p> </div>
-🎮 How to Play 🎮
-<div style="background: #fff0f7; padding: 15px; border-radius: 12px; border: 2px solid #ffb6d9; width: 70%; margin: auto;">
-
-⬆️ BTNU – Up
-
-⬇️ BTND – Down
-
-⬅️ BTNL – Left
-
-➡️ BTNR – Right
-
-Eat the food, grow longer, avoid crashing — and slay the FPGA world 💖🐍✨
-
-</div>
-🌷 Setup Instructions 🌷
-
-Open project in Vivado
-
-Click Synthesize ✨
-
-Generate the bitstream 💎
-
-Program the Basys 3 board 🌸
-
-Connect a VGA monitor 💗
-
-🧁 Final Notes 🧁
-
-This project is perfect for learning:
-
-FPGA design fundamentals
-
-VGA timing + sync signals
-
-Modular hardware design
-
-Digital logic
-
-How to make engineering ✨aesthetic✨
+*Made with 💗 for the FPGA community!*
