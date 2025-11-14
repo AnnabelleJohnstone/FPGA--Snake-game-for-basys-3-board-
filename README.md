@@ -18,25 +18,39 @@
 💗 Totally kawaii retro gaming vibe
 
 </div>
-💞 Project Structure 💞
-📁 vga_controller.v      → Handles VGA timing (the screen queen 👑)
-📁 snake_logic.v         → Core snake movement + collisions 🐍✨
-📁 lfsr_random.v         → Generates cute random food 🍬
-📁 input_controller.v    → Button debouncing 💅
-📁 score_count.v         → Score logic 🌸
-📁 seg_7_disp.v          → 7-segment display driver 🔢💗
-📁 top.v / topwrapper.v  → Everything comes together 💞
-
 🌈💗 Module Hierarchy (Golden Layout) 💗🌈
-topwrapper.v   🌸
-│
-├── u_master_sm      → Master State Machine 💞
-├── u_nav_sm         → Navigation State Machine 🎀
-├── u_snake_control  → Snake Control Logic 🐍✨
-├── u_score_count    → Score Counter 💗
-├── u_target_rdm_gen → Random Target Generator 🍬
-├── u_seg_7_disp     → 7-Segment Display Driver 🔢💡
-└── u_vga_controller → VGA Controller 🎮🌈
+
+💗 topwrapper.v
+
+✨ u_master_sm — Master State Machine
+
+🎀 u_nav_sm — Navigation State Machine
+
+🐍 u_snake_control — Snake Control Logic
+
+🌸 u_score_count — Score Counter
+
+🍬 u_target_rdm_gen — Random Target Generator
+
+🔢 u_seg_7_disp — 7-Segment Display Driver
+
+🎮 u_vga_controller — VGA Controller
+
+💞 Project Structure 💞
+
+📁 vga_controller.v — VGA timing
+
+📁 snake_logic.v — Snake movement + collisions
+
+📁 lfsr_random.v — Random food generator
+
+📁 input_controller.v — Button debouncing
+
+📁 score_count.v — Score logic
+
+📁 seg_7_disp.v — 7-segment output
+
+📁 top.v / topwrapper.v — Top-level integration
 
 <div align="center"> <p style="font-style: italic; color:#d47ca6;"> Your full architecture — clean, modular, and adorable ✨ </p> </div>
 🎮 How to Play 🎮
