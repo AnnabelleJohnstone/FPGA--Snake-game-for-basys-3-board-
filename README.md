@@ -29,6 +29,7 @@ Play your fav retro game on a real FPGA, complete with VGA output and adorable p
 📁 seg_7_disp.v          → 7-seg score display driver 💗
 📁 top.v / topwrapper.v  → Everything comes together 💞
 
+
 🌈💗 Module Hierarchy (Golden Layout) 💗🌈
 topwrapper.v   🌸
 │
@@ -41,7 +42,8 @@ topwrapper.v   🌸
 └── u_vga_controller → VGA Controller 🎮🌈
 
 
-This is your full architecture, showing all cute modules working together ✨💕
+
+This is your full architecture
 
 🎮 How to Play 🎮
 
@@ -56,7 +58,7 @@ Use the buttons to move your little snake princess:
 
 ➡️ BTNR – Right
 
-Eat the cute lil’ food squares, grow longer, and don’t bonk into yourself! 💖🐍
+Eat the food squares, grow longer, and don’t bonk into yourself! 💖🐍
 
 🌷 Setup Instructions 🌷
 
@@ -87,5 +89,3 @@ VGA timing
 Digital logic
 
 Modular Verilog
-
-Building adorable tech projects ✨
