@@ -14,7 +14,7 @@ A hardware-powered Snake Game made with love (and Verilog) for the Basys 3 FPGA 
 - 🍬 **Random food** using an LFSR (sparkle randomness!)
 - 🌟 **Sweet modular Verilog design**
 - 🎮 **Button controls** using the Basys 3 push-buttons
-- ✨ **Cute + nostalgic gameplay vibes**
+
 
 ## 💞 Project Structure 💞
 - **`vga_controller.v`** → Handles VGA timing 
