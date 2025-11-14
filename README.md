@@ -1,10 +1,11 @@
 # 🎀💗 FPGA Snake Game – Basys 3 Edition 💗🎀
 
-A super cute hardware-powered Snake Game made with love (and Verilog) for the Basys 3 FPGA board! Play your favorite retro game on a real FPGA, complete with VGA output and adorable pastel aesthetics 💕✨
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b8562e72-e7ed-45bb-83af-8c723c2a7584" width="600" alt="FPGA Snake Game Banner">
 </p>
+
+A hardware-powered Snake Game made with love (and Verilog) for the Basys 3 FPGA board! Play your favorite retro game on a real FPGA, complete with VGA output 💕✨
+
 ## 🌸✨ Features ✨🌸
 
 - 💕 **Full hardware implementation** — no CPU, just pure digital logic magic!
